@@ -28,7 +28,7 @@
 					<div id="header"><h1><xsl:value-of select="//name"/></h1></div>
 					<div id="page" class="clear"><xsl:apply-templates/></div>
 					<div id="footer">
-						<div id="driven">driven by <a href="http://pssn.com">pssn</a></div>
+						<div id="driven"><a href="http://sputnik.pl">Sputnik.pl</a></div>
 						<div id="copy">&copy;2008 <xsl:value-of select="//author"/></div>
 					</div>
 				</div>
