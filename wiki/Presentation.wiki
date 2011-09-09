@@ -1,0 +1,14 @@
+#summary the Smallest PHP XML/XSL Framework!
+
+= Introduction =
+
+PHP community is very lazy with XML applications and XML standards. There are no good XML framework, notorious problems with _SimpleXML_ (a "read-only" map of XML-to-array),  and no direct support to _xQuery 1.0_ and _XSLT 2.0_.
+But PHP with _XSLT 1.0_, read/write XML files, read/write XML at database... it rocks!
+
+This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a MVC pattern. 
+
+= Version 1.0 of 2010=
+It was a first seminal work, showing what is a "mininal framework" to build sites with XML, XSLT and PHP.
+
+= Version 2.X of 2011=
+We added some minimal features to the framework, to do "real world" applications:
