@@ -7,6 +7,15 @@ But PHP with _XSLT 1.0_, read/write XML files, read/write XML at database... it 
 
 This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a MVC pattern. 
 
+== History ==
+In 2008 Tatarynowicz wanted to see how feasible it is to create a simple, portable system in which data is stored as XML and templates as XSL. He developed a little framework that  outputs XHTML 1.0 Strict pages, and manipulate page structure at any stage using standard XML/XSL tools.
+
+It works and the source code was the <tt>smallest-php-xml-xsl-framework 1.0</tt>; but, like other PHP+XSLT examples, the way it's implemented, everything is too strict and limited to work in real world imo. Tatarynowicz lost interest in XSLT as a templating language.
+
+Example: [http://sputnik.pl/pies/framework/]
+
+In 2011 PPKrauss find Tatarynowicz's work and used it as the "simple and didactic XSLT+PHP" framework implementation, augmenting the original software with some "real world" behaviours, producing the <tt>smallest-php-xml-xsl-framework 2.0</tt>.
+
 = Version 1.0 of 2010=
 It was a first seminal work, showing what is a "mininal framework" to build sites with XML, XSLT and PHP.
 
