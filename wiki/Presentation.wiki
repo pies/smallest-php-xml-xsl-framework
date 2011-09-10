@@ -1,4 +1,6 @@
-#summary the Smallest PHP XML/XSL Framework!
+This "Smallest PHP XML/XSL Framework" project intend to be _the World's smallest PHP/XML/XSL website framework_.
+
+It is a simple and didactic way to learn how to work with a (standard) XSLT 1.0 template engine in a PHP development context, and how to use XML datebase to produce web content.
 
 = Introduction =
 
@@ -7,6 +9,15 @@ But PHP with _XSLT 1.0_, read/write XML files, read/write XML at database... it 
 
 This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a MVC pattern. 
 
+== Scope ==
+The aim is not to produce a "really very small" peace of code, the minimal framework need,
+ * Use XML files or XML records (from database) as input;
+ * Use XSLT (with CSS) as _template language_;
+ * Supply templates with "page state" and another mixed data;
+ * Use PHP also as a template language (!) and also for produce input date.
+
+To to test if the little framework achieve these goals, it is inserted into a "website controler" application.
+ 
 == History ==
 In 2008 Tatarynowicz wanted to see how feasible it is to create a simple, portable system in which data is stored as XML and templates as XSL. He developed a little framework that  outputs XHTML 1.0 Strict pages, and manipulate page structure at any stage using standard XML/XSL tools.
 
