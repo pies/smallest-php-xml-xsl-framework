@@ -60,6 +60,4 @@ Change code and test by your self. Example:
 - change the css/skin1.css adn/or xsl/SKIN1.xsl files (they express the site layout).
 
 == Learn more == 
-See [Tutorial]
-This is the complex solution: same skin for any article DTD. 
-For simple solution: use more simple or direct skin+artilce.
+See [Tutorial].
