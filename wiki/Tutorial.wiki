@@ -1,13 +1,9 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
+#summary Tutorial for use the framework modules.
 
 
-= Details =
+= MVC =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= SKIN =
+
+* This is the complex solution: same skin for any article DTD. 
+* For simple solution: use more simple or direct skin+artilce.
