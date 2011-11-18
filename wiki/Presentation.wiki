@@ -1,4 +1,4 @@
-This "Smallest PHP XML/XSL Framework" project intend to be _the World's smallest PHP/XML/XSL website framework_.
+This project intend to be the "_Smallest PHP/XML/XSL website framework_".
 
 It is a simple and didactic way to learn how to work with a (standard) XSLT 1.0 template engine in a PHP development context, and how to use XML datebase to produce web content.
 
@@ -25,6 +25,8 @@ In 2008 Tatarynowicz wanted to see how feasible it is to create a simple, portab
 
 
 In 2011 PPKrauss find Tatarynowicz's work and used it as the "simple and didactic XSLT+PHP" framework implementation, augmenting the original software with some "real world" behaviours, producing the <tt>smallest-php-xml-xsl-framework 2.0</tt>.
+
+Another reference for XSLT with PHP: http://symphony-cms.com/
 
 = Version 1.0 of 2010=
 It was a first seminal work, showing what is a "mininal framework" to build sites with XML, XSLT and PHP.
