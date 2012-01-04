@@ -28,6 +28,8 @@ In 2011 PPKrauss find Tatarynowicz's work and used it as the "simple and didacti
 
 Another reference for XSLT with PHP: http://symphony-cms.com/
 
+Another reference for XSLT framework (with Cocoon): http://www.daisycms.org/ 
+
 = Version 1.0 of 2010=
 It was a first seminal work, showing what is a "mininal framework" to build sites with XML, XSLT and PHP.
 
