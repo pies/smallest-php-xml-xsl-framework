@@ -1,22 +1,22 @@
 This project intend to be the "_Smallest PHP/XML/XSL website framework_".
 
-It is a simple and didactic way to learn how to work with a (standard) XSLT 1.0 template engine in a PHP development context, and how to use XML datebase to produce web content.
+It is a simple and didactic way to learn how to work with a (standard) [http://www.w3.org/TR/xslt XSLT 1.0]  [http://code.google.com/p/smallest-template-system/wiki/TemplateSyntax#Basic_concepts template system] with PHP, and how to use a XML database to produce web contents.
 
 = Introduction =
 
 PHP community is very lazy with XML applications and XML standards. There are no good XML framework, notorious problems with _SimpleXML_ (a "read-only" map of XML-to-array),  and no direct support to _xQuery 1.0_ and _XSLT 2.0_.
-But PHP with _XSLT 1.0_, read/write XML files, read/write XML at database... it rocks!
+But [http://www.php.net/manual/en/book.dom.php PHP DOM] with _XSLT 1.0_, read/write XML... it rocks!
 
-This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a MVC pattern. 
+This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a [http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller classic MVC pattern]. 
 
 == Scope ==
 The aim is not to produce a "really very small" peace of code, the minimal framework need,
  * Use XML files or XML records (from database) as input;
  * Use XSLT (with CSS) as _template language_;
- * Supply templates with "page state" and another mixed data;
- * Use PHP also as a template language (!) and also for produce input date.
+ * Supply to XSLT the "page state" and another "standard" data;
+ * Use PHP also as a template language (!) and also for produce XML input date for XSLT.
 
-To to test if the little framework achieve these goals, it is inserted into a "website controler" application.
+To test if the little framework achieve these goals, it was inserted into a "website controler" application.
  
 == History ==
 In 2008 Tatarynowicz wanted to see how feasible it is to create a simple, portable system in which data is stored as XML and templates as XSL. He developed a little framework that  outputs XHTML 1.0 Strict pages, and manipulate page structure at any stage using standard XML/XSL tools.
@@ -36,32 +36,30 @@ It was a first seminal work, showing what is a "mininal framework" to build site
 = Version 2.X of 2011=
 We added some minimal features to the framework, to do "real world" applications:
 
-- XSLT can see page state (POST/GET/SESSION variables);
+ * XSLT can see page state (POST/GET/SESSION variables);
 
-- XSLT can use XML-on-fly build by PHP (see FORM);
+ * XSLT can use XML-on-fly build by PHP (see FORM);
 
-- use of different XSLT-article standars, as NLM example.
+ * use of different XSLT-article standars, as NLM example.
 
-- sitemap+skyn permits submenu navigation.
+ * sitemap+skyn permits submenu navigation.
 
 == Installation ==
 
-1- copy all zip source-code to a /www directory. Example: /var/www/smallest-php-xml-xsl-framework
-
-2- Access it with your web browser. Example: http://localhost/smallest-php-xml-xsl-framework
-
-3- Navigate. If any error, check folder permissions and, check if all XML and XSL PHP-configurations are enabled.
+ # copy all zip source-code to a /www directory. Example: /var/www/smallest-php-xml-xsl-framework
+ # Access it with your web browser. Example: http://localhost/smallest-php-xml-xsl-framework
+ # Navigate. If any error, check folder permissions and, check if all XML and XSL PHP-configurations are enabled.
 
 == Do your experiments ==
 Change code and test by your self. Example:
 
-- change the conf.php file to adapt for another application.
+ * change the conf.php file to adapt for another application.
 
-- change title attributes at xml/site (the site map).
+ * change title attributes at xml/site (the site map).
 
-- change the xml/pages files (they are the page contents).
+ * change the xml/pages files (they are the page contents).
 
-- change the css/skin1.css adn/or xsl/SKIN1.xsl files (they express the site layout).
+ * change the css/skin1.css adn/or xsl/SKIN1.xsl files (they express the site layout).
 
 == Learn more == 
 See [Tutorial].
