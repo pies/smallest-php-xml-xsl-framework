@@ -1,0 +1,65 @@
+This project intend to be the "_Smallest PHP/XML/XSL website framework_".
+
+It is a simple and didactic way to learn how to work with a (standard) [XSLT 1.0](http://www.w3.org/TR/xslt)  [template system](http://code.google.com/p/smallest-template-system/wiki/TemplateSyntax#Basic_concepts) with PHP, and how to use a XML database to produce web contents.
+
+# Introduction #
+
+PHP community is very lazy with XML applications and XML standards. There are no good XML framework, notorious problems with _SimpleXML_ (a "read-only" map of XML-to-array),  and no direct support to _xQuery 1.0_ and _XSLT 2.0_.
+But [PHP DOM](http://www.php.net/manual/en/book.dom.php) with _XSLT 1.0_, read/write XML... it rocks!
+
+This "Smallest PHP XML/XSL Framework" is for demonstrates how to work with PHP, XML and XSLT, in a minimal framework, and without restricting to a [classic MVC pattern](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller).
+
+## Scope ##
+The aim is not to produce a "really very small" peace of code, the minimal framework need,
+  * Use XML files or XML records (from database) as input;
+  * Use XSLT (with CSS) as _template language_;
+  * Supply to XSLT the "page state" and another "standard" data;
+  * Use PHP also as a template language (!) and also for produce XML input date for XSLT.
+
+To test if the little framework achieve these goals, it was inserted into a "website controler" application.
+
+## History ##
+In 2008 Tatarynowicz wanted to see how feasible it is to create a simple, portable system in which data is stored as XML and templates as XSL. He developed a little framework that  outputs XHTML 1.0 Strict pages, and manipulate page structure at any stage using standard XML/XSL tools.
+
+[It works](http://sputnik.pl/pies/framework/) and the source code was the <tt>smallest-php-xml-xsl-framework 1.0</tt>; but, like other PHP+XSLT examples, the way it's implemented, everything is too strict and limited to work in real world imo. Tatarynowicz lost interest in XSLT as a templating language.
+
+
+In 2011 PPKrauss find Tatarynowicz's work and used it as the "simple and didactic XSLT+PHP" framework implementation, augmenting the original software with some "real world" behaviours, producing the <tt>smallest-php-xml-xsl-framework 2.0</tt>.
+
+Another reference for XSLT with PHP: http://symphony-cms.com/
+
+Another reference for XSLT framework (with Cocoon): http://www.daisycms.org/
+
+# Version 1.0 of 2010 #
+It was a first seminal work, showing what is a "mininal framework" to build sites with XML, XSLT and PHP.
+
+# Version 2.X of 2011 #
+We added some minimal features to the framework, to do "real world" applications:
+
+  * XSLT can see page state (POST/GET/SESSION variables);
+
+  * XSLT can use XML-on-fly build by PHP (see FORM);
+
+  * use of different XSLT-article standars, as NLM example.
+
+  * sitemap+skyn permits submenu navigation.
+
+## Installation ##
+
+  1. copy all zip source-code to a /www directory. Example: /var/www/smallest-php-xml-xsl-framework
+  1. Access it with your web browser. Example: http://localhost/smallest-php-xml-xsl-framework
+  1. Navigate. If any error, check folder permissions and, check if all XML and XSL PHP-configurations are enabled.
+
+## Do your experiments ##
+Change code and test by your self. Example:
+
+  * change the conf.php file to adapt for another application.
+
+  * change title attributes at xml/site (the site map).
+
+  * change the xml/pages files (they are the page contents).
+
+  * change the css/skin1.css adn/or xsl/SKIN1.xsl files (they express the site layout).
+
+## Learn more ##
+See [Tutorial](Tutorial.md).
